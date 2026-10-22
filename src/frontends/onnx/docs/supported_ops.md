@@ -256,6 +256,7 @@ OpenVINO provides support for operations of Default Opset (empty in table below)
 |com.microsoft           |GroupQueryAttention                                     |1                       |1                               |                                |
 |com.microsoft           |Inverse                                                 |                        |1                               |                                |
 |com.microsoft           |Irfft                                                   |                        |1                               |                                |
+|com.microsoft           |LinearAttention                                         |1                       |1                               |Gated-delta only; equal query/KV head counts, per-head decay, state_window=0.|
 |com.microsoft           |LongformerAttention                                     |                        |1                               |                                |
 |com.microsoft           |MatMulBnb4                                              |                        |1                               |                                |
 |com.microsoft           |MatMulFpQ4                                              |                        |1                               |                                |

@@ -72,6 +72,7 @@ set(SRC
     gather_block_quantized_tests.cpp
     graph_iterator.cpp
     library_extension.cpp
+    linear_attention_tests.cpp
     load_from.cpp
     onnx_editor.cpp
     onnx_editor_topological_sort.cpp
